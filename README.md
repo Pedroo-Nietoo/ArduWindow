@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> ArduWindow <img src=""/>  </h1>
+  <h1> ArduWindow </h1>
   <br>
   <br>
   <h3> IDE utilizada: </h2>
