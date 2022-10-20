@@ -65,7 +65,7 @@ void loop(){
   valor_analogico = analogRead(pino_sinal_analogico);
   Serial.print(valor_analogico);
 
-  i(valor_analogico >= 800){
-    servo.wrie(180);
+  if(valor_analogico >= 800){
+    servo.write(180);
   }
 }
