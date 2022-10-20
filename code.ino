@@ -2,7 +2,6 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
 
-//#define valorAnalogico A0;
 int valorAnalogico = 799;
 void setup()
 {
@@ -32,7 +31,6 @@ void loop()
     delay(1000);
   }
 }
-
 //---------------------------------------------//
 #define pino_sinal_analogico A0
 int valor_analogico;
