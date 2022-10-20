@@ -47,7 +47,8 @@ void loop()
   }
 }
 
-//---------------------------------------------//#define pino_sinal_analogico A0
+//---------------------------------------------//
+#define pino_sinal_analogico A0
 int valor_analogico;
 
 #include <Servo.h>
