@@ -18,7 +18,7 @@ void loop(){
       s.write(0);
   }else{
     Serial.write("Molhado\n");
-    s.write(25);
+    s.write(55);
   }
   delay(1000);
 }
