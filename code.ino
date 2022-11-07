@@ -1,21 +1,24 @@
-#define pino_sinal_analogico A0
-int valor_analogico;
-
 #include <Servo.h>
-Servo servo;
+Servo s;
+
+const int pinoServo = 6;
+const int pinoSensor = 3;
 
 void setup(){
   Serial.begin(9600);
-  pinMode(pino_sinal_analogico, INPUT);
-  servo.attach();
-  servo.write(0);
+  pinMode(pinoSensor, INPUT);
+
+  s.attach(pinoServo);
+  s.write(0);
 }
-
+ 
 void loop(){
-  valor_analogico = analogRead(pino_sinal_analogico);
-  Serial.print(valor_analogico);
-
-  if(valor_analogico >= 800){
-    servo.write(180);
+  if(digitalRead(pinoSensor) == HIGH){
+      Serial.write("Seco\n");
+      s.write(0);
+  }else{
+    Serial.write("Molhado\n");
+    s.write(25);
   }
+  delay(1000);
 }
