@@ -2,12 +2,9 @@
   <h1> ArduWindow | <img height="25px" src="https://user-images.githubusercontent.com/102625628/201121079-70240c2c-71af-46f5-8893-412ee18aa8ee.png"/></h1> 
 
   <br>
-  
-  <div align="left">
-  
+   
   > **Warning** <br>
   <p> O projeto/código possui uma licença. Caso os cumprimentos<br> da mesma não sejam realizados ao pegar informações deste<br> repositório, medidas poderão ser tomadas.</p>
-  </div>
   
   <br>
   <br>
