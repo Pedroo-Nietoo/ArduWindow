@@ -44,5 +44,9 @@
   <br>
   <br>
   
-  <p><i>"O projeto consiste em uma maquete de uma janela que, ao chover, fecha<br> a mesma automaticamente e, ao evaporar da água, abre a janela outra vez."</i></p>
+  <p>
+    <i>"O projeto consiste em uma maquete de uma janela que, ao chover, fecha<br> a mesma automaticamente e, ao evaporar da água, abre a janela outra vez."
+    <br><br>
+    "Nele, utilizamos um motor e um sensor de chuva, além da utilização<br> do monitor serial para acompanhar os sinais enviados."</i>
+  </p>
 </div>
